@@ -31,7 +31,7 @@ nivelAvancado = nivel >= 10;
 podeEnfrentarZoltraak = vidaSuficiente && (ataqueForte || nivelAvancado);
 
 console.log(`⊹ ࣪📜 ˖ ${nome} e a Jornada para o Além`);
-console.log("");
+console.log(". ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.");
 console.log(`${nome}, uma ${classe} solitária, é uma antiga aventureira que, junto de seus antigos companheiros: Himmel o herói humano, Eisen o anão guerreiro e Heiter o sacerdote e seu ${NOMEARMA} tinha o grande objetivo de derrotar o Rei Demõnio.`);
 console.log(`Por ser uma ${classe}, seu tempo de vida se extende e, consequentemente, presencia a morte de todos em sua volta.`);
 console.log("Isso a faz construir uma barreira entre ela e as pessoas em sua volta, mas um dia, seu antigo colega, Himmel, morre, e Frieren chora pela primeira vez pela morte de um humano.");
@@ -40,5 +40,6 @@ console.log("Com isso, Frieren sai em uma jornada afim de passar por vilareijos 
 console.log(`${nome} é uma ${classe} temida por ser muito forte e possuir muito conhecimentos. Em toda sua jornada juntou milhares de poderes, atingiu o seu atual nível ${nivel} e ${ataqueTotal} de ataque.`);
 console.log(`É claro que nessa jornada, sua ${NOMEARMADURA} foi muito importante para sua proteção, sendo um presente enviado de sua antiga mestra, que a tinha como aprendiz e que a ensinou toda sua defesa atual de ${defesaTotal}.`);
 console.log(`Além do mais, ela possui ${xp} de experiência e ${vida} de vida. Apesar de poderosa, ${nome} não costuma ter muito ouro, levando consigo ${ouro}.`);
-console.log(`${nome} possui vida suficiente? ${vidaSuficiente} | ataque forte? ${ataqueForte} | nível avançado? ${nivelAvancado}.`);
-console.log(`Logo, pode derrotar o grande temido Zoltraak? ${podeEnfrentarZoltraak}.`);
+console.log(". ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.")
+console.log(`⤷ ${nome} possui vida suficiente? ${vidaSuficiente} | ataque forte? ${ataqueForte} | nível avançado? ${nivelAvancado}.`);
+console.log(`⤷ Logo, pode derrotar o grande temido Zoltraak? ${podeEnfrentarZoltraak}.`);
