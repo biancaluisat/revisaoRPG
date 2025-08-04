@@ -46,10 +46,10 @@ console.log(`Além do mais, ela possui ${xp} de experiência e ${vida} de vida. 
 console.log(". ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.")
 console.log(`⤷ ${nome} possui vida suficiente? ${vidaSuficiente} | ataque forte? ${ataqueForte} | nível avançado? ${nivelAvancado}.`);
 console.log(`⤷ Logo, pode derrotar o grande temido Zoltraak? ${podeEnfrentarZoltraak}.`);
+
+// Recaptulação de como acabamos. . . 
+
 console.log("_________________________________________");
-
-// Continuação...
-
 console.log(`⭐| Nível: ${nivel}`);
 console.log(`❤️| Vida: ${vida}`);
 console.log(`🪙| Ouro: ${ouro}`);
@@ -141,7 +141,7 @@ console.log("── 𝐂𝐀𝐏𝐈́𝐓𝐔𝐋𝐎 𝐓𝐑𝐄̂𝐒 . . ."
 console.log("");
 
 console.log(`Prosseguindo sua missão, em uma caverna não tão distante de onde ${nome} havia se hospedado, um lobo da neve é avistado.`);
-console.log(`Ela ja havia ouvido histórias sobre esse lobo, que era temido, mau e esperto. Não tinha quem derrotasse. O lobo guardava grimórios nunca lidos, poções de ancestrais importantes, tranqueiras que ${nome} tanto gostava. Ela ja estava decidida de quem derrotar.`);
+console.log(`Ela ja havia ouvido histórias sobre esse lobo, que era temido, mau e esperto. Não tinha quem derrotasse. A lenda dizia que o lobo guardava grimórios nunca lidos, poções de ancestrais importantes, tranqueiras que ${nome} tanto gostava. Ela ja estava decidida de quem derrotar.`);
 console.log("");
 
 if (vida >= 100 && manaAtual >= 100) {
@@ -153,7 +153,7 @@ if (vida >= 100 && manaAtual >= 100) {
 }
 
 console.log("");
-console.log(`Após passar o lobo, a jornada de ${nome} estava pronta para ser continuada...`);
+console.log(`Após passar o lobo, ${nome} descobriu que o que contavam sobre o lobo eram mitos exagerados, pois tudo que achou em sua caverna foram pilhas de ossos e um baú que possuia apenas um grimório que ensinava a magia de adestrar qualquer animal. Mas tudo bem, apesar de ${nome} se decepcionar com isso, pois amava tranqueiras mágicas, sua jornada de estava pronta para ser continuada...`);
 
 console.log("_________________________________________");
 console.log(`⭐| Nível: ${nivel}`);
