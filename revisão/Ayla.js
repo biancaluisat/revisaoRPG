@@ -1,26 +1,32 @@
-let nome = "Ayla";
-let nivel = 1;
-let xp = 0;
-let ouro = 50;
-let vida = 100;
+let vida = 60;
+let energia = 40;
+let xp = 1100;
+let ouro = 200;
+let nivel = 3;
 
-console.log(`✨ O início da jornada de ${nome}!`);
-console.log(`🏆 Nível: ${nivel}`);
-console.log(`⭐ Xp: ${xp}`);
-console.log(`💲 Ouro: ${ouro}`);
-console.log(`❤ Vida: ${vida}`);
+if (vida >= 80) {
+    console.log("Ayla está em ótimas condições.");
+} else if (vida >= 40) {
+    console.log("Ayla está ferida, mas ainda pode lutar.");
+} else {
+    console.log("Ayla está em estado crítico.");
+}
 
-xp += 20;
-ouro += 100;
-vida -= 30;
-ouro *= 2;
-nivel++;
-vida /= 2;
+if (vida >= 50 && energia >= 50) {
+    console.log("Ayla está preparada para o calabouço.");
+} else {
+    console.log("Ayla não pode seguir.");
+}
 
-console.log("")
-console.log(`⚔ O Final da jornada de ${nome}!`);
-console.log(`🏆 Nível: ${nivel}`);
-console.log(`⭐ Xp: ${xp}`);
-console.log(`💲 Ouro: ${ouro}`);
-console.log(`❤ Vida: ${vida}`);
+if (xp >= 1000) {
+    nivel++;
+    console.log (`Ayla subiu de nível! ${nivel}`);
+} else {
+    console.log("Adquira mais xp para subir de nível.");
+}
 
+if (ouro >= 300) {
+    console.log("Ayla comprou a armadura mágica!");
+} else {
+    console.log("Ayla não tem ouro suficiente.");
+}
