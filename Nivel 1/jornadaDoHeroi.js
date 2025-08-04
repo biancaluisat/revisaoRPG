@@ -4,7 +4,7 @@ let nivel = 95;
 let vida = 86;
 let ouro = 100;
 let xp = 70;
-let manaAtual = 100;
+let manaAtual = 70;
 let manaMaxima = 150;
 let agilidadeBase = 30;
 let danoBase = 100;
@@ -67,10 +67,10 @@ console.log(`Após um tempo de jornada de ${nome}, avistando um pequeno vilarejo
 console.log(`No pequeno comércio deste homem, há várias jóias, que são apresentadas a ela como mágicas e da sorte, e logo ${nome} deseja comprar a mais bela jóia de cor violeta.`);
 console.log("");
 
-let preçoJoia = 20;
+let preçoJoia = 10;
 if (ouro >= preçoJoia) {
     ouro -= preçoJoia;
-    console.log(`── Parabéns ${nome}! Você adquiriu a Jóia Violeta. Há ${ouro} restantes.💍₊˚⊹♡`);
+    console.log(`── Parabéns ${nome}! Você adquiriu a Jóia Violeta. Há ${ouro} restantes.💍₊˚⊹`);
 }
 
 console.log("");
@@ -79,7 +79,7 @@ console.log("");
 
 if (agilidadeBase >= 40) {
     ouro++;
-    console.log(`── Parabéns, você resgatou a moedinha de cair no esgoto. Agora você tem ${ouro} ouros!🪙₊˚⊹♡`);
+    console.log(`── Parabéns, você resgatou a moedinha de cair no esgoto. Agora você tem ${ouro} ouros!🪙₊˚⊹`);
     console.log("");
 }
 
@@ -87,7 +87,7 @@ console.log(`${nome} agora podia finalizar seu dia. Como acabava sendo reconheci
 
 if (vida < 100) {
     vida += 10;
-    console.log(`── ${nome}, você descansou e recuperou o total de 10 de vida!💚₊˚⊹♡`);
+    console.log(`── ${nome}, você descansou e recuperou o total de 10 de vida!💚₊˚⊹`);
 }
 
 console.log("_________________________________________");
@@ -102,6 +102,38 @@ console.log("");
 
 console.log("── 𝐂𝐀𝐏𝐈́𝐓𝐔𝐋𝐎 𝐃𝐎𝐈𝐒 . . .");
 console.log("");
+console.log(`Antes de partir do vilarejo, ${nome} deseja comprar uma poção de mana, para garantir caso alguma coisa aconteça.`);
+console.log("");
+
+if (ouro >= 25) {
+    console.log(`── ${nome} comprou a poção e recuperou 30 de mana!🧙‍♀️₊˚⊹`);
+    manaAtual += 30;
+} else {
+    console.log(`── Poxa, ${nome}, não foi dessa vez que você conseguiu comprar. Quem sabe numa próxima você possuí mais ouros?! ₊˚⊹`);
+}
+
+console.log("");
+console.log(`Andando mais para frente, ${nome} derruba seu Cajado Feiticeiro sem querer..`);
+console.log("");
+
+if (agilidadeBase >= 30) {
+    console.log(`── Ufa! O cajado foi resgatado a tempo, quase que cai no chão!😅₊˚⊹`);
+} else {
+    console.log(`── O Cajado caiu... infelizmente, seu dano foi afetado... ₊˚⊹`);
+    danoBase -= 20;
+}
+
 console.log(`Prosseguindo sua missão, em uma caverna não tão distante de onde ${nome} havia se hospedado, um lobo da neve é avistado.`);
 console.log(`Ela ja havia ouvido histórias sobre esse lobo, que era temido, mau e esperto. Não tinha quem derrotasse. O lobo guardava grimórios nunca lidos, poções de ancestrais importantes, tranqueiras que ${nome} tanto gostava. Ela ja estava decidida de quem derrotar.`);
+console.log("");
 
+if (vida >= 100 && manaAtual >= 100) {
+    console.log(`── ${nome} está preparadíssima para a batalha, atacar!⚔️₊˚⊹`);
+} else if (vida >= 70 && manaAtual >= 75) {
+    console.log(`── ${nome} pode lutar, mas é melhor ter cautela!🛡️₊˚⊹`);
+}else {
+    console.log(`── Apenas corra!! É perigoso lutar nessas condições.🏃‍♀️₊˚⊹`);
+}
+
+console.log("");
+console.log(`Após passar o lobo, `)
