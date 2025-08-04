@@ -2,8 +2,11 @@ let nome = "Frieren";
 let classe = "Maga Elfa";
 let nivel = 95;
 let vida = 86;
-let ouro = 50;
+let ouro = 100;
 let xp = 70;
+let manaAtual = 100;
+let manaMaxima = 150;
+let agilidadeBase = 30;
 let danoBase = 100;
 let defesaBase = 35;
 
@@ -43,3 +46,32 @@ console.log(`Além do mais, ela possui ${xp} de experiência e ${vida} de vida. 
 console.log(". ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.")
 console.log(`⤷ ${nome} possui vida suficiente? ${vidaSuficiente} | ataque forte? ${ataqueForte} | nível avançado? ${nivelAvancado}.`);
 console.log(`⤷ Logo, pode derrotar o grande temido Zoltraak? ${podeEnfrentarZoltraak}.`);
+console.log("_________________________________________");
+
+// Continuação: Capítulo I
+
+console.log(`⭐| Nível: ${nivel}`);
+console.log(`❤️| Vida: ${vida}`);
+console.log(`🪙| Ouro: ${ouro}`);
+console.log(`🪄| XP: ${xp}`);
+console.log(`🧙‍♀️| Mana: ${manaAtual}`);
+console.log(`🏹| Agilidade: ${agilidadeBase}`);
+console.log("_________________________________________");
+console.log("");
+
+// Primeira situação: Condicionais Simples.
+
+console.log(`Após um tempo de jornada de ${nome}, avistando um pequeno vilarejo, ela para para passear. Lá, ela encontra muitas pessoas, porém, um comerciante à chama a atenção.`);
+console.log(`No pequeno comércio deste homem, há várias jóias, que são apresentadas a ela como mágicas e da sorte, e logo ${nome} deseja comprar a mais bela jóia de cor violeta.`);
+console.log("");
+
+let preçoJoia = 20;
+if (ouro >= preçoJoia) {
+    ouro -= preçoJoia;
+    console.log(`── Parabéns ${nome}! Você adquiriu a Jóia Violeta. Há ${ouro} restantes.💍₊˚⊹♡`);
+}
+
+console.log("");
+manaAtual += 15;
+console.log(`No mesmo vilarejo, ${nome} descansa, recuperando sua mana, possuindo agora ${manaAtual}.`);
+
