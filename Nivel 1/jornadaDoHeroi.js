@@ -83,7 +83,7 @@ if (agilidadeBase >= 40) {
     console.log("");
 }
 
-console.log(`${nome} agora podia finalizar seu dia. Como acabava sendo reconhecida por derrotar o Rei Demônio e o temido Zoltraak, acabava que sua estadia durante o tempo que passasse no vilarejo era por conta da casa, podendo enim descansar.`);
+console.log(`${nome} agora podia finalizar seu dia. Como acabava sendo reconhecida por derrotar o Rei Demônio e o temido Zoltraak, acabava que sua estadia durante o tempo que passasse no vilarejo era por conta da casa, podendo enfim descansar.`);
 
 if (vida < 100) {
     vida += 10;
@@ -99,6 +99,8 @@ console.log(`🧙‍♀️| Mana: ${manaAtual}`);
 console.log(`🏹| Agilidade: ${agilidadeBase}`);
 console.log("_________________________________________");
 console.log("");
+
+// Segunda situação: Condicionais Compostas.
 
 console.log("── 𝐂𝐀𝐏𝐈́𝐓𝐔𝐋𝐎 𝐃𝐎𝐈𝐒 . . .");
 console.log("");
@@ -123,6 +125,21 @@ if (agilidadeBase >= 30) {
     danoBase -= 20;
 }
 
+console.log("_________________________________________");
+console.log(`⭐| Nível: ${nivel}`);
+console.log(`❤️| Vida: ${vida}`);
+console.log(`🪙| Ouro: ${ouro}`);
+console.log(`🪄| XP: ${xp}`);
+console.log(`🧙‍♀️| Mana: ${manaAtual}`);
+console.log(`🏹| Agilidade: ${agilidadeBase}`);
+console.log("_________________________________________");
+console.log("");
+
+// Terceira situação: Condicionais Encadeadas.
+
+console.log("── 𝐂𝐀𝐏𝐈́𝐓𝐔𝐋𝐎 𝐓𝐑𝐄̂𝐒 . . .");
+console.log("");
+
 console.log(`Prosseguindo sua missão, em uma caverna não tão distante de onde ${nome} havia se hospedado, um lobo da neve é avistado.`);
 console.log(`Ela ja havia ouvido histórias sobre esse lobo, que era temido, mau e esperto. Não tinha quem derrotasse. O lobo guardava grimórios nunca lidos, poções de ancestrais importantes, tranqueiras que ${nome} tanto gostava. Ela ja estava decidida de quem derrotar.`);
 console.log("");
@@ -136,4 +153,13 @@ if (vida >= 100 && manaAtual >= 100) {
 }
 
 console.log("");
-console.log(`Após passar o lobo, `)
+console.log(`Após passar o lobo, a jornada de ${nome} estava pronta para ser continuada...`);
+
+console.log("_________________________________________");
+console.log(`⭐| Nível: ${nivel}`);
+console.log(`❤️| Vida: ${vida}`);
+console.log(`🪙| Ouro: ${ouro}`);
+console.log(`🪄| XP: ${xp}`);
+console.log(`🧙‍♀️| Mana: ${manaAtual}`);
+console.log(`🏹| Agilidade: ${agilidadeBase}`);
+console.log("_________________________________________");
