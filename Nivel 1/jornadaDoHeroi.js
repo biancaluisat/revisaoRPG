@@ -48,7 +48,7 @@ console.log(`⤷ ${nome} possui vida suficiente? ${vidaSuficiente} | ataque fort
 console.log(`⤷ Logo, pode derrotar o grande temido Zoltraak? ${podeEnfrentarZoltraak}.`);
 console.log("_________________________________________");
 
-// Continuação: Capítulo I
+// Continuação...
 
 console.log(`⭐| Nível: ${nivel}`);
 console.log(`❤️| Vida: ${vida}`);
@@ -61,6 +61,8 @@ console.log("");
 
 // Primeira situação: Condicionais Simples.
 
+console.log("── 𝐂𝐀𝐏𝐈́𝐓𝐔𝐋𝐎 𝐔𝐌 . . .");
+console.log("");
 console.log(`Após um tempo de jornada de ${nome}, avistando um pequeno vilarejo, ela para para passear. Lá, ela encontra muitas pessoas, porém, um comerciante à chama a atenção.`);
 console.log(`No pequeno comércio deste homem, há várias jóias, que são apresentadas a ela como mágicas e da sorte, e logo ${nome} deseja comprar a mais bela jóia de cor violeta.`);
 console.log("");
@@ -72,6 +74,34 @@ if (ouro >= preçoJoia) {
 }
 
 console.log("");
-manaAtual += 15;
-console.log(`No mesmo vilarejo, ${nome} descansa, recuperando sua mana, possuindo agora ${manaAtual}.`);
+console.log(`Andando mais um pouco, ${nome} avista uma moeda de ouro rolando em direção a um ralo de esgoto..`);
+console.log("");
+
+if (agilidadeBase >= 40) {
+    ouro++;
+    console.log(`── Parabéns, você resgatou a moedinha de cair no esgoto. Agora você tem ${ouro} ouros!🪙₊˚⊹♡`);
+    console.log("");
+}
+
+console.log(`${nome} agora podia finalizar seu dia. Como acabava sendo reconhecida por derrotar o Rei Demônio e o temido Zoltraak, acabava que sua estadia durante o tempo que passasse no vilarejo era por conta da casa, podendo enim descansar.`);
+
+if (vida < 100) {
+    vida += 10;
+    console.log(`── ${nome}, você descansou e recuperou o total de 10 de vida!💚₊˚⊹♡`);
+}
+
+console.log("_________________________________________");
+console.log(`⭐| Nível: ${nivel}`);
+console.log(`❤️| Vida: ${vida}`);
+console.log(`🪙| Ouro: ${ouro}`);
+console.log(`🪄| XP: ${xp}`);
+console.log(`🧙‍♀️| Mana: ${manaAtual}`);
+console.log(`🏹| Agilidade: ${agilidadeBase}`);
+console.log("_________________________________________");
+console.log("");
+
+console.log("── 𝐂𝐀𝐏𝐈́𝐓𝐔𝐋𝐎 𝐃𝐎𝐈𝐒 . . .");
+console.log("");
+console.log(`Prosseguindo sua missão, em uma caverna não tão distante de onde ${nome} havia se hospedado, um lobo da neve é avistado.`);
+console.log(`Ela ja havia ouvido histórias sobre esse lobo, que era temido, mau e esperto. Não tinha quem derrotasse. O lobo guardava grimórios nunca lidos, poções de ancestrais importantes, tranqueiras que ${nome} tanto gostava. Ela ja estava decidida de quem derrotar.`);
 
