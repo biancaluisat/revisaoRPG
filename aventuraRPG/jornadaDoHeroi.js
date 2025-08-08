@@ -200,7 +200,7 @@ if (vida >= 100 && manaAtual >= 100) {
 
 console.log("");
 console.log(
-  `Após passar o lobo, ${nome} descobriu que o que contavam sobre o lobo não eram mitos exagerados, pois o que achou em sua caverna foi um baú que possuia vários grimórios que ensinavam magias diversas, desde adestrar qualquer animal, até um super raio de luz avermelhada que percorria distâncias enormes. ${nome} simplesmente se encantou. Ela amava tranqueiras mágicas, das mais simples até as que representavam toda sua força e nome. A jornada estava pronta para ser continuada...`
+  `Após passar o lobo, ${nome} descobriu que o que contavam sobre o lobo não eram mitos exagerados, pois o que achou em sua caverna foi um baú que possuia vários grimórios que ensinavam magias diversas, desde adestrar qualquer animal, até um super Raio de Luz avermelhada que percorria distâncias enormes. ${nome} simplesmente se encantou. Ela amava tranqueiras mágicas, das mais simples até as que representavam toda sua força e nome. A jornada estava pronta para ser continuada...`
 );
 
 // Recaptulação de como a exploração terminou
@@ -214,3 +214,7 @@ console.log(`🧙‍♀️| Mana: ${manaAtual}`);
 console.log(`🏹| Agilidade: ${agilidadeBase}`);
 console.log("_________________________________________");
 
+// O que seguirá com Frierem em sua jornada?
+
+let magiasFortesNovas = ["Raio de Luz", "Feiche Nebuloso", "Vollzanbel", "Reelseiden", "Aura Kanaf", " Feitiço de Selamento"];
+let magiasAleatoriasNovas = ["Adestramento de animais", "Captura de Pássaros", "Crescimento acelerado de flores"];
