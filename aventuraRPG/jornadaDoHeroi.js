@@ -183,7 +183,7 @@ console.log("── 𝐂𝐀𝐏𝐈́𝐓𝐔𝐋𝐎 𝐓𝐑𝐄̂𝐒 . . ."
 console.log("");
 
 console.log(
-  `Prosseguindo sua missão, em uma caverna não tão distante de onde ${nome} havia se hospedado, um lobo da neve é avistado.`
+  `Prosseguindo sua missão, em uma caverna de uma montanha não tão distante de onde ${nome} havia se hospedado, um lobo da neve é avistado.`
 );
 console.log(
   `Ela ja havia ouvido histórias sobre esse lobo, que era temido, mau e esperto. Não tinha quem derrotasse. A lenda dizia que o lobo guardava grimórios nunca lidos, poções de ancestrais importantes, tranqueiras que ${nome} tanto gostava. Ela ja estava decidida de quem derrotar.`
@@ -203,7 +203,7 @@ console.log(
   `Após passar o lobo, ${nome} descobriu que o que contavam sobre o lobo não eram mitos exagerados, pois o que achou em sua caverna foi um baú que possuia vários grimórios que ensinavam magias diversas, desde adestrar qualquer animal, até um super Raio de Luz avermelhada que percorria distâncias enormes. ${nome} simplesmente se encantou. Ela amava tranqueiras mágicas, das mais simples até as que representavam toda sua força e nome. A jornada estava pronta para ser continuada...`
 );
 
-// Recaptulação de como a exploração terminou
+// Recaptulação de como a exploração terminou:
 
 console.log("_________________________________________");
 console.log(`⭐| Nível: ${nivel}`);
@@ -213,8 +213,41 @@ console.log(`🪄| XP: ${xp}`);
 console.log(`🧙‍♀️| Mana: ${manaAtual}`);
 console.log(`🏹| Agilidade: ${agilidadeBase}`);
 console.log("_________________________________________");
+console.log("")
 
-// O que seguirá com Frierem em sua jornada?
-
-let magiasFortesNovas = ["Raio de Luz", "Feiche Nebuloso", "Vollzanbel", "Reelseiden", "Aura Kanaf", " Feitiço de Selamento"];
+let magiasFortesNovas = ["Raio de Luz", "Feiche Nebuloso", "Vollzanbel", "Reelseiden", "Aura Kanaf", "Feitiço de Selamento"];
 let magiasAleatoriasNovas = ["Adestramento de animais", "Captura de Pássaros", "Crescimento acelerado de flores"];
+let inimigosDerrotados = ["Rei demônio", "Zoltraak", "Lobo das Neves"];
+let conhecidosPelaJornada = [];
+
+console.log(`Andando mais a frente, ${nome} encontra uma pequena cabana, onde consegue se esconder da nevasca que irá atingir as montanhas que a mesma caminhava. A porta estava aberta e o lugar parecia já estar sendo habitado, tudo estava muito arrumado; a lareira possuía lenhas, uma pequena colcha se estendia no chão... tudo era estranho, porém, era sua única opção no momento.`);
+console.log(`${nome} agora possuía ${magiasAleatoriasNovas.length} magias de combate novas e ${magiasAleatoriasNovas.length} de não-combate. Magias novas era o que a fazia sair, explorar, conhecer pessoas novas...`);
+console.log(`Tendo derrotado recentemente ${inimigosDerrotados.length} inimgos, ela seguia firme e forte para o além.`);
+console.log("");
+
+// Continuação com arrays.
+
+console.log("── 𝐂𝐀𝐏𝐈́𝐓𝐔𝐋𝐎 𝐔𝐌 . . .");
+console.log("");
+
+console.log(`Descansando na lareira da cabana, ${nome} decide parar para olhar suas novas magias e decidir suas novas favoritas...`);
+console.log(`1ª Magia favorita de ${nome}: ${magiasAleatoriasNovas[2]}`);
+console.log(`2ª Magia favorita de ${nome}: ${magiasFortesNovas[2]}`);
+console.log("");
+console.log("𝐐𝐔𝐄𝐁𝐑𝐀 𝐃𝐄 𝐓𝐄𝐌𝐏𝐎")
+console.log("");
+console.log(`Um tempo se passa e ${nome} está ajeitando suas coisas na cabana, até que a porta se abre...`);
+console.log(`Quando olha para ver quem entrou, se depara com um elfo, alguém de sua espécie. Ela se assusta, isso é muito raro.`);
+console.log(`${nome} não sabe de quem se trata, mas é um elfo apresentado como o Monge Kraft. Ele diz também ter vivido por vários milênios, e não se importa de dividir espaço.`);
+console.log("");
+
+conhecidosPelaJornada.push("Kraft, o Monge");
+console.log(`Uma nova pessoa conhecida durante a jornada de ${nome}! Olá ${conhecidosPelaJornada}.`);
+console.log("");
+
+console.log(`Kraft ficou impressionado com as magias de ${nome}, então, de presente pela hospedagem, ela o deu um de seus grimórios, já que ela ja possuía uma parecida.`);
+
+let presenteAoKraft = magiasFortesNovas.pop();
+
+console.log(`── Presente dado ao Kraft: ${magiasFortesNovas[4]}. ₊˚⊹`);
+
