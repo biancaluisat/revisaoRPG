@@ -213,16 +213,33 @@ console.log(`🪄| XP: ${xp}`);
 console.log(`🧙‍♀️| Mana: ${manaAtual}`);
 console.log(`🏹| Agilidade: ${agilidadeBase}`);
 console.log("_________________________________________");
-console.log("")
+console.log("");
 
-let magiasFortesNovas = ["Raio de Luz", "Feiche Nebuloso", "Vollzanbel", "Reelseiden", "Aura Kanaf", "Feitiço de Selamento"];
-let magiasAleatoriasNovas = ["Adestramento de animais", "Captura de Pássaros", "Crescimento acelerado de flores"];
+let magiasFortesNovas = [
+  "Raio de Luz",
+  "Feiche Nebuloso",
+  "Vollzanbel",
+  "Reelseiden",
+  "Aura Kanaf",
+  "Feitiço de Selamento",
+];
+let magiasAleatoriasNovas = [
+  "Adestramento de animais",
+  "Captura de Pássaros",
+  "Crescimento acelerado de flores",
+];
 let inimigosDerrotados = ["Rei demônio", "Zoltraak", "Lobo das Neves"];
 let conhecidosPelaJornada = [];
 
-console.log(`Andando mais a frente, ${nome} encontra uma pequena cabana, onde consegue se esconder da nevasca que irá atingir as montanhas que a mesma caminhava. A porta estava aberta e o lugar parecia já estar sendo habitado, tudo estava muito arrumado; a lareira possuía lenhas, uma pequena colcha se estendia no chão... tudo era estranho, porém, era sua única opção no momento.`);
-console.log(`${nome} agora possuía ${magiasAleatoriasNovas.length} magias de combate novas e ${magiasAleatoriasNovas.length} de não-combate. Magias novas era o que a fazia sair, explorar, conhecer pessoas novas...`);
-console.log(`Tendo derrotado recentemente ${inimigosDerrotados.length} inimgos, ela seguia firme e forte para o além.`);
+console.log(
+  `Andando mais a frente, ${nome} encontra uma pequena cabana, onde consegue se esconder da nevasca que irá atingir as montanhas que a mesma caminhava. A porta estava aberta e o lugar parecia já estar sendo habitado, tudo estava muito arrumado; a lareira possuía lenhas, uma pequena colcha se estendia no chão... tudo era estranho, porém, era sua única opção no momento.`
+);
+console.log(
+  `${nome} agora possuía ${magiasAleatoriasNovas.length} magias de combate novas e ${magiasAleatoriasNovas.length} de não-combate. Magias novas era o que a fazia sair, explorar, conhecer pessoas novas...`
+);
+console.log(
+  `Tendo derrotado recentemente ${inimigosDerrotados.length} inimgos, ela seguia firme e forte para o além.`
+);
 console.log("");
 
 // Continuação com arrays.
@@ -230,24 +247,146 @@ console.log("");
 console.log("── 𝐂𝐀𝐏𝐈́𝐓𝐔𝐋𝐎 𝐔𝐌 . . .");
 console.log("");
 
-console.log(`Descansando na lareira da cabana, ${nome} decide parar para olhar suas novas magias e decidir suas novas favoritas...`);
+console.log(
+  `Descansando na lareira da cabana, ${nome} decide parar para olhar suas novas magias e decidir suas novas favoritas...`
+);
 console.log(`1ª Magia favorita de ${nome}: ${magiasAleatoriasNovas[2]}`);
 console.log(`2ª Magia favorita de ${nome}: ${magiasFortesNovas[2]}`);
 console.log("");
-console.log("𝐐𝐔𝐄𝐁𝐑𝐀 𝐃𝐄 𝐓𝐄𝐌𝐏𝐎")
+console.log("𝐐𝐔𝐄𝐁𝐑𝐀 𝐃𝐄 𝐓𝐄𝐌𝐏𝐎");
 console.log("");
-console.log(`Um tempo se passa e ${nome} está ajeitando suas coisas na cabana, até que a porta se abre...`);
-console.log(`Quando olha para ver quem entrou, se depara com um elfo, alguém de sua espécie. Ela se assusta, isso é muito raro.`);
-console.log(`${nome} não sabe de quem se trata, mas é um elfo apresentado como o Monge Kraft. Ele diz também ter vivido por vários milênios, e não se importa de dividir espaço.`);
+console.log(
+  `Um tempo se passa e ${nome} está ajeitando suas coisas na cabana, até que a porta se abre...`
+);
+console.log(
+  `Quando olha para ver quem entrou, se depara com um elfo, alguém de sua espécie. Ela se assusta, isso é muito raro.`
+);
+console.log(
+  `${nome} não sabe de quem se trata, mas é um elfo apresentado como o Monge Kraft. Ele diz também ter vivido por vários milênios, e não se importa de dividir espaço.`
+);
 console.log("");
 
 conhecidosPelaJornada.push("Kraft, o Monge");
-console.log(`Uma nova pessoa conhecida durante a jornada de ${nome}! Olá ${conhecidosPelaJornada}.`);
+console.log(
+  `Uma nova pessoa conhecida durante a jornada de ${nome}! Olá ${conhecidosPelaJornada}.`
+);
 console.log("");
 
-console.log(`Kraft ficou impressionado com as magias de ${nome}, então, de presente pela hospedagem, ela o deu um de seus grimórios, já que ela ja possuía uma parecida.`);
+console.log(
+  `Kraft ficou impressionado com as magias de ${nome}, então, de presente pela hospedagem, ela o deu um de seus grimórios, já que ela ja possuía uma parecida.`
+);
 
 let presenteAoKraft = magiasFortesNovas.pop();
 
 console.log(`── Presente dado ao Kraft: ${magiasFortesNovas[4]}. ₊˚⊹`);
+console.log("");
+console.log("𝐐𝐔𝐄𝐁𝐑𝐀 𝐃𝐄 𝐓𝐄𝐌𝐏𝐎");
+console.log("");
 
+let salasCastelo = ["Templo do Rei", "Sala primordial", "Arco dos baús"];
+
+console.log(
+  `A nevasca ja tinha passado. Frieren agora explorava um castelo com ${salasCastelo.length} salas principais...`
+);
+
+for (let i = 0; i < salasCastelo.length; i++) {
+  console.log(`🔍 Sala${i + 1}: ${salasCastelo[i]}`);
+
+  if (i === 0) {
+    vida -= 20;
+    console.log(`${nome} enfrenta monstros! Sua vida atual é ${vida}`);
+  } else if (i === 2) {
+    console.log(`${nome} encontra mais um grimórios!`);
+    magiasAleatoriasNovas.push("Magia do despertar");
+  } else {
+    console.log(`${nome} achou cristais de evolução!`);
+    xp += 150;
+  }
+}
+console.log("");
+console.log(`Exploração do Castelo completa! Vida: ${vida} | XP: ${xp}`);
+console.log("");
+console.log("𝐁𝐀𝐓𝐀𝐋𝐇𝐀 𝐅𝐈𝐍𝐀𝐋");
+console.log("");
+
+let inimigosBatalha = ["Homem de Verde", "Senhor Colossal", "Jason Aogiri"];
+let danoRecebido = [];
+
+console.log(`${nome} está contra ${inimigosBatalha.length} inimigos...`);
+console.log("");
+
+for (let i = 0; i < inimigosBatalha.length; i++) {
+  let inimgos = inimigosBatalha[i];
+  let dano = Math.floor(Math.random() * 30) + 5;
+
+  console.log(`♦️Rodada ${i + 1} | Enfrentando: ${inimgos}`);
+  console.log(`🔥${nome} causa ${dano} de dano!`);
+
+  if (i === 0) {
+    console.log(`Vitória na primeira batalha! ${nome} sobe de nível!`);
+    nivel += 2;
+  } else if (i === 1) {
+    console.log(
+      `Na segunda batalha, o Colossal resiste, mas ${nome} não desiste!`
+    );
+    vida -= 10;
+  } else {
+    console.log(
+      "Na batalha final, Jason Aogiri se prova ser menos! Vitória Épica!"
+    );
+    nivel += 5;
+  }
+}
+
+let danoTotal = 0;
+for (let i = 0; i < danoRecebido.length; i++) {
+  danoTotal += danoRecebido[i];
+  console.log(`Rodada ${i + 1} | Dano: ${danoRecebido[i]}`);
+}
+
+console.log("");
+console.log(`Dano total causado: ${danoTotal}`);
+console.log(`Nível final: ${nivel} | XP final: ${xp}`);
+console.log("");
+
+console.log("_________________________________________");
+console.log(`⭐| Nível: ${nivel}`);
+console.log(`❤️| Vida: ${vida}`);
+console.log(`🪙| Ouro: ${ouro}`);
+console.log(`🪄| XP: ${xp}`);
+console.log(`🧙‍♀️| Mana: ${manaAtual}`);
+console.log(`🏹| Agilidade: ${agilidadeBase}`);
+console.log("_________________________________________");
+
+console.log("");
+console.log(
+  `Muitos a conhecem como lenda, como heroína, como ${nome}... mas apenas ela sabe o que passou e seus motivos.`
+);
+console.log(
+  `Seu passado, seu presente, o que passou... tudo a torna quem é. ${nome}.`
+);
+console.log(
+  `Tudo que passou, aprendeu e viveu foi de grade aprendizado. Ela guardará tudo dentro de si, pois ainda não é o final.`
+);
+console.log(`Muitos desafios ainda à aguardam, e ela não irá desistir.`);
+console.log(
+  `Carregará todos que passaram por sua vida e foram importantes. Principalmente Himmel. O seu real motivo.`
+);
+console.log(
+  `Ela tinha certeza que lá de cima, ele estava orgulhso, por tudo que ela se tornou e está tentando se tornar.`
+);
+console.log(
+  `Sua jornada ainda não acabou, porém, ela seguirá firme e forte. Por si mesma, e por eles, seus grandes amigos.`
+);
+console.log(
+  `Sera que tinha mais? O que faltaa para ela explorar? Quem mais conhecer?`
+);
+console.log(
+  `${nome} estava disposta a voltar a se importar e se descobrir, e tudo que passou nessa jornada foi fundamental.`
+);
+console.log(
+  `Todas as magias que conquistou, desde a mais bobinha até a mais forte, carregará consigo até o final.`
+);
+console.log(
+  `Este não é o final de ${nome}. Seu destino ainda à aguarda, assim como sua jornada.`
+);
